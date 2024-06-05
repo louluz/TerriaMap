@@ -2,6 +2,9 @@
   /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
   "initializationUrls": ["simple"],
   "parameters": {
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNjg0OWRhMC1jODI3LTQwNDMtOTk5OC02OTY3MWU0NWUxMTkiLCJpZCI6MjA1Njg1LCJpYXQiOjE3MTY3ODg1Nzd9.wpUVYeiXk63H5CUT0QO_vtm2zxXMYGQ5yAOKDTyAw_k",
+    "useCesiumIonTerrain": true,
+    "useCesiumIonBingImagery": true,
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
@@ -41,7 +44,7 @@
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+      "<a target=\"_blank\" href=\"https://shas.co.kr\"><img src=\"images/dtp_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
       ""
     ],
     // Shown when things go wrong.
@@ -50,6 +53,8 @@
     "proj4ServiceBaseUrl": "proj4def/",
     // Or this
     "feedbackUrl": "feedback",
+    // "feedbackUrl": null,
+    "storyEnabled": true,
     // Default mobile viewer mode when loading the map for the first time on mobile platforms.
     // Options are: "3DTerrain", "3DSmooth", "2D"
     "mobileDefaultViewerMode": "2d",
@@ -69,11 +74,11 @@
     // "showInAppGuides": false,
     // see `languageOverrides.json` in languages/en
     "languageConfiguration": {
-      "enabled": false,
+      "enabled": true,
       "debug": false,
       "languages": {
-        "en": "English",
-        "fr": "Français"
+        "ko": "한국어",
+        "en": "English"
       },
       "fallbackLanguage": "en"
     },
