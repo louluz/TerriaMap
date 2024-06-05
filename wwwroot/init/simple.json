@@ -1,11 +1,52 @@
 {
   "homeCamera": {
-    "north": -8,
-    "east": 158,
-    "south": -45,
-    "west": 109
+    "north": 43,
+    "east": 132,
+    "south": 33,
+    "west": 124
   },
   "catalog": [
+    {
+      "type": "cesium-terrain",
+      "ionServer": "http://172.28.59.100:31615/v1",
+      "ionAssetId": 5,
+      "name": "영월 지형고도"
+    },
+    {
+      "type": "3d-tiles",
+      "ionServer": "http://172.28.59.100:31615/v1",
+      "ionAssetId": 6,
+      "name": "영월 3D 건물"
+    },
+    {
+      "type": "3d-tiles",
+      "ionServer": "http://172.28.59.100:31615/v1",
+      "ionAssetId": 15,
+      "name": "영월 3D 교량"
+    },
+    {
+      "type": "3d-tiles",
+      "ionServer": "http://172.28.59.100:31615/v1",
+      "ionAssetId": 13,
+      "name": "영월 포인트클라우드 1"
+    },
+    {
+      "type": "3d-tiles",
+      "ionServer": "http://172.28.59.100:31615/v1",
+      "ionAssetId": 14,
+      "name": "영월 포인트클라우드 2"
+    },
+    {
+      "type": "3d-tiles",
+      "ionServer": "http://172.28.59.100:31615/v1",
+      "ionAssetId": 12,
+      "name": "영월 포인트클라우드 3"
+    },
+    // {
+    //   "type": "3d-tiles",
+    //   "ionAssetId": 2594385,
+    //   "name": "yw3dbldg"
+    // },
     {
       "id": "ZIdekvc10z",
       "type": "wms-group",
